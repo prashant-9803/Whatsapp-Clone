@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:4000",
+    baseURL: "https://whatsapp-2be7.onrender.com",
 });
 
 export const googleAuth = (code) => api.get(`/api/auth/google?code=${code}`);
