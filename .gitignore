@@ -1,0 +1,32 @@
+# Node.js dependencies  
+node_modules/  
+npm-debug.log  
+yarn.lock  
+package-lock.json  
+
+# Ignore all files in uploads/images/
+uploads/images/*
+
+uploads/images/
+uploads/
+
+# But do not ignore demoImg.jpg
+
+
+# Environment variables  
+.env  
+.env.local  
+.env.*  
+
+
+# Build files  
+dist/  
+build/  
+.cache/  
+
+
+
+
+# Editor files  
+.vscode/  
+.idea/  
